@@ -1,25 +1,30 @@
-# InstructAI'
+# InstructAI🤖
 
-# Project Link- https://ai-chat-rouge.vercel.app
+# Project Link🔗- https://ai-chat-rouge.vercel.app
 
-## Description
+## Description💬
 
 InstructAI is a personal AI chat application designed to provide interactive and personalized learning experiences. With features like a robust training module, demo chat, and an intuitive user interface, InstructAI aims to make learning engaging and tailored to individual preferences.
 
-## Features
+## Features🎮
 
 - **Personal AI Chat:** Engage in interactive conversations with a personal AI assistant.
 - **Training Module:** Train the AI model to adapt and respond according to user preferences.
 - **Demo Chat:** Explore the capabilities of InstructAI through a demo chat option.
 - **User-friendly Interface:** Enjoy a seamless and user-friendly interface for an enhanced learning experience.
 
-## Tools Used
+## Tools Used🔎
 
-- **Next.js:** Framework for building React applications.
-- **React:** JavaScript library for building user interfaces.
-- **[Any additional tools or libraries you used]**
+- Next.js: Framework for building React applications.
+- React: JavaScript library for building user interfaces.
+- Stripe: Integrated for secure and seamless payment processing.
+- Clerk: Utilized for efficient user authentication within the InstructAI platform.
+- Prisma: Integrated with MySQL for database management.
+- MySQL: Database management system for storing user data.
+- OpenAI: Leveraged for advanced AI capabilities.
+- Llama Models: Specific AI models from OpenAI used to enhance the intelligence and adaptability of InstructAI.
 
-## Getting Started
+## Getting Started 
 
 1. Clone the repository:
 
