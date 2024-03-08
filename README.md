@@ -1,4 +1,5 @@
 # InstructAI🤖
+ An intelligent learning companion 
 
 # Project Link🔗- https://ai-chat-rouge.vercel.app
 
