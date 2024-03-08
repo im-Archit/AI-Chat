@@ -24,7 +24,7 @@ InstructAI is a personal AI chat application designed to provide interactive and
 1. Clone the repository:
 
 ```bash
-git clone [your repository URL]
+git clone https://github.com/im-Archit/AI-Chat.git
 ```
 
 2. Install dependencies:
