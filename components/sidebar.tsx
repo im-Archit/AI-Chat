@@ -17,13 +17,23 @@ export const Sidebar = ({
     const router = useRouter();
     const pathname = usePathname();
 
-    const onNavigate = (url: string, pro: boolean) => {
+    const onNavigate = async (url: string, pro: boolean) => {
         if (pro && !isPro) {
-            return proModal.onOpen();
+            proModal.onOpen();
+        } else {
+            console.log("Navigating to:", url);
+            try {
+                await router.push(url);
+                console.log("Navigation successful!");
+            } catch (error) {
+                console.error("Navigation failed:", error);
+            }
         }
+    };
 
-        return router.push(url);
-    }
+
+
+
 
     const routes = [
         {
@@ -36,7 +46,7 @@ export const Sidebar = ({
             icon: Plus,
             href: '/companion/new',
             label: "Create",
-            pro: true,
+            pro: false,
         },
         {
             icon: Settings,
