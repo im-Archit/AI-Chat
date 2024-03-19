@@ -31,10 +31,6 @@ export const Sidebar = ({
         }
     };
 
-
-
-
-
     const routes = [
         {
             icon: Home,

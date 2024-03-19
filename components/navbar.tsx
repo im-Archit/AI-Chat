@@ -28,7 +28,7 @@ export const Navbar = ({ isPro }: NavbarProps) => {
                             font.className
                         )}
                     >
-                        companion.ai
+                        InstructAI
                     </h1>
                 </Link>
             </div>

@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 
 export const SubscriptionButton = ({
-    isPro = false
+    isPro = true
 }: {
     isPro: boolean;
 }) => {
