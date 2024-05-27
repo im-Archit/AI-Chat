@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install --production
+RUN npm ci --production
 
 # Copy the rest of the application code
 COPY . .
@@ -20,4 +20,3 @@ EXPOSE 3000
 
 # Command to run the Next.js app
 CMD ["npm", "start"]
-
