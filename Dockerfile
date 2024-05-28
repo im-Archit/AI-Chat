@@ -1,13 +1,13 @@
 # Use a Node.js base image with a version that meets Next.js requirements
 FROM node:18
 
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # Copy package.json and package-lock.json
 COPY package*.json ./
 
 # Install dependencies
-RUN npm ci --production
+RUN npm install
 
 # Copy the rest of the application code
 COPY . .
